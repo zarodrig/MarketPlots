@@ -1,14 +1,12 @@
 #! /bin/python3
 ##########################################################
-#  Title: projectDemo.py
+#  Title: marketPlots.py
 #  Author: Zorondras Rodriguez
 #  Creation Date: December 5, 2020
-#  Version: 0.08
-#  Revision Date: December 8, 2020
-#  Course: ENSF 310
-#  Assignment: Final Project
+#  Version: 0.09
+#  Revision Date: December 17, 2020
 #
-#  Description: project demo launcher
+#  Description: Market Plots launcher
 ###########################################################
 
 import functions as fun

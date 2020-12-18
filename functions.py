@@ -114,8 +114,6 @@ def grabData( commodity: commoData, source:str):
     else:  # for unix/linux systems
         dataFolder="data/"
 
-
-
     if (source == 'datahub' or source =='quandl' or source == 'yahoo' ):
         #https://docs.python.org/3/howto/urllib2.html
         #https://docs.python.org/3/library/urllib.request.html
@@ -365,12 +363,15 @@ def generateMonthAxisLabels(yearStart,yearEnd):
         labelList.append(label)  # add the string label for the tick to the list
     return monthTicks, labelList
 
-def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker: commoData, smaDays: int, smaBool: bool, logBool:bool):
+def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker: commoData, smaList: list, smaBool: bool, logBool:bool):
     '''Plot the completed dataset as inputed, this version allows for direct selection of the 
        variables and their xlabel and ylabel strings.
     '''
     import matplotlib.pyplot as plt
     from matplotlib.ticker import StrMethodFormatter
+    from random import random
+
+    colorList=['b', 'g', 'r', 'c', 'm', 'y']
 
     fig1 = plt.figure(figsize=(16, 10))
     plt.title(newTicker.folderName+'/'+newTicker.fileName,fontsize=18, fontweight='bold')
@@ -393,16 +394,24 @@ def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker:
     # width in years of the data
     maxYears = int(data['decimal_date'].iloc[nRows-1]-data['decimal_date'].iloc[0])
 
+
+    legendList = list()
+    legendList.append(newTicker.fileName)
     if (maxYears > 3):
         #### format the x axis with this many digits (Just plot years)
         ax.xaxis.set_major_formatter(StrMethodFormatter('{x:.2f}'))   
         plt.plot(data[xCol], data[yCol], '-k')  # plot the data
+
+        
         if (smaBool):
-            # plot the data with 30 day SMA
-            plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-r')
-            plt.legend([newTicker.fileName, str(smaDays)+" day SMA"], fontsize=16)
+            for k in range(len(smaList)):
+                smaDays=smaList[k]
+                # plot the data with 30 day SMA
+                plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-'+colorList[k])
+                legendList.append(str(smaDays)+" day SMA")
+            plt.legend(legendList, fontsize=16)
         else:
-            plt.legend([newTicker.fileName], fontsize=16)
+            plt.legend(legendList, fontsize=16)
 
     elif (maxYears < 3 and maxYears>1):
         monthTicks,labelList=generateMonthAxisLabels(yearStart, yearEnd)
@@ -412,8 +421,12 @@ def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker:
 
         plt.plot(data[xCol], data[yCol], '-k')  # plot the data
         if (smaBool):
-            plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(),'-r')  # plot the data with 30 day SMA
-            plt.legend([newTicker.fileName, str(smaDays)+" day SMA"], fontsize=16)
+            for k in range(len(smaList)):
+                smaDays=smaList[k]
+                # plot the data with 30 day SMA
+                plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-'+colorList[k])
+                legendList.append(str(smaDays)+" day SMA")
+            plt.legend(legendList, fontsize=16)
         else:
             plt.legend([newTicker.fileName], fontsize=16)
     else:  
@@ -428,8 +441,12 @@ def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker:
             ax.set_xticklabels(labelList, rotation=40)
             plt.plot(data[xCol], data[yCol], '-k')  # plot the data
             if (smaBool):
-                plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(),'-r')  # plot the data with 30 day SMA
-                plt.legend([newTicker.fileName, str(smaDays)+" day SMA"], fontsize=16)
+                for k in range(len(smaList)):
+                    smaDays=smaList[k]
+                    # plot the data with 30 day SMA
+                    plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-'+colorList[k])
+                    legendList.append(str(smaDays)+" day SMA")
+                plt.legend(legendList, fontsize=16)
             else:
                 plt.legend([newTicker.fileName], fontsize=16)
         else:
@@ -440,10 +457,12 @@ def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker:
             ax.set_xticklabels(labelList, rotation=40)
             plt.plot(data[xCol], data[yCol], '-k')  # plot the data
             if (smaBool):
-                # plot the data with 30 day SMA
-                plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-r')
-                plt.legend([newTicker.fileName, str(
-                    smaDays)+" day SMA"], fontsize=16)
+                for k in range(len(smaList)):
+                    smaDays=smaList[k]
+                    # plot the data with 30 day SMA
+                    plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-'+colorList[k])
+                    legendList.append(str(smaDays)+" day SMA")
+                plt.legend(legendList, fontsize=16)
             else:
                 plt.legend([newTicker.fileName], fontsize=16)
 
@@ -464,12 +483,16 @@ def dataPlotterPlus(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker:
     plt.show()
     return
 
-def dataPlotterMarketStack(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker: commoData, smaDays: int, smaBool: bool, logBool:bool):
+def dataPlotterMarketStack(data, xCol: str, yCol: str, xLab: str, yLab: str, newTicker: commoData, smaList: list, smaBool: bool, logBool:bool):
     ''' Specialize plot utility for short time scale data from market stack (2 weeks - 1 day)
        plots the x-axis with the month and day labels if time range is between 1-month to 4 days
        plots the day and the hour on the x-axis if the time range is < 4 days.  
     '''
     import matplotlib.pyplot as plt
+
+    colorList=['b', 'g', 'r', 'c', 'm', 'y']
+    legendList = list()
+    legendList.append(newTicker.fileName)
 
     fig1 = plt.figure(figsize=(16,10))
     #plt.title(newTicker.folderName+'/'+newTicker.fileName, fontsize=18, fontweight='bold')
@@ -493,6 +516,7 @@ def dataPlotterMarketStack(data, xCol: str, yCol: str, xLab: str, yLab: str, new
     endDay =  int(data['decimal_day'].iloc[nRows-1]) +1 # the largest whole number decimal day
     numDays = int(data['decimal_day'].iloc[nRows-1]-data['decimal_day'].iloc[0])  # the approximate amount of days in the data
 
+
     if (numDays > 4):
         tickLocations, labelList=generateMarkStackDayLabels(startDay, endDay, data)
         ## SET XTICK LABELS
@@ -501,10 +525,14 @@ def dataPlotterMarketStack(data, xCol: str, yCol: str, xLab: str, yLab: str, new
         ##### PERFORM DATA PLOTS
         plt.plot(data[xCol], data[yCol], '-k') # plot the data 
         if (smaBool):
-            plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-r')  # plot the data with 30 day SMA
-            plt.legend([newTicker.fileName,str(smaDays)+" day SMA"],fontsize=16)
+            for k in range(len(smaList)):
+                smaDays=smaList[k]
+                # plot the data with 30 day SMA
+                plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-'+colorList[k])
+                legendList.append(str(smaDays)+" day SMA")
+            plt.legend(legendList, fontsize=16)
         else:
-            plt.legend([newTicker.fileName], fontsize=16)
+            plt.legend(legendList, fontsize=16)
     else:
         tickLocations, labelList = generateMarkStackHourLabels(startDay, endDay, data)
         ## SET XTICK LABELS
@@ -513,12 +541,14 @@ def dataPlotterMarketStack(data, xCol: str, yCol: str, xLab: str, yLab: str, new
         ##### PERFORM DATA PLOTS
         plt.plot(data[xCol], data[yCol], '-k')  # plot the data
         if (smaBool):
-            # plot the data with 30 day SMA
-            plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-r')
-            plt.legend([newTicker.fileName, str(
-                smaDays)+" day SMA"], fontsize=16)
+            for k in range(len(smaList)):
+                smaDays=smaList[k]
+                # plot the data with 30 day SMA
+                plt.plot(data[xCol], data[yCol].rolling(smaDays).mean(), '-'+colorList[k])
+                legendList.append(str(smaDays)+" day SMA")
+            plt.legend(legendList, fontsize=16)
         else:
-            plt.legend([newTicker.fileName], fontsize=16)
+            plt.legend(legendList, fontsize=16)
 
     ### Set the plot limits/ Restore the plot limits to the data ranges
     # Set this to be the decimal degree limits
@@ -537,11 +567,15 @@ def dataPlotterMarketStack(data, xCol: str, yCol: str, xLab: str, yLab: str, new
     return
 
 
-def dataPlotter(data, newTicker:commoData, smaDays:int, smaBool:bool, logBool:bool):
+def dataPlotter(data, newTicker:commoData, smaList:list, smaBool:bool, logBool:bool):
     '''Plot the completed dataset as inputed
     dataPlotter(data,newTicker:commoData, kday:int, smaBool:bool)
     '''
     import matplotlib.pyplot as plt
+
+    colorList=['b', 'g', 'r', 'c', 'm', 'y']
+    legendList = list()
+    legendList.append(newTicker.fileName)
 
     fig1 = plt.figure(figsize=(16,10))
     plt.title(newTicker.folderName+'/'+newTicker.fileName, fontsize=18, fontweight='bold')
@@ -556,11 +590,16 @@ def dataPlotter(data, newTicker:commoData, smaDays:int, smaBool:bool, logBool:bo
         ax.set_yscale('log')
 
     plt.plot(data['decimal_date'], data['Price'], '-k') # plot the data 
+
     if (smaBool):
-        plt.plot(data['decimal_date'], data['Price'].rolling(smaDays).mean(), '-r')  # plot the data with 30 day SMA
-        plt.legend([newTicker.fileName,str(smaDays)+" day SMA"],fontsize=16)
+        for k in range(len(smaList)):
+            smaDays=smaList[k]
+            # plot the data with 30 day SMA
+            plt.plot(data['decimal_date'], data['Price'].rolling(smaDays).mean(), '-'+colorList[k])
+            legendList.append(str(smaDays)+" day SMA")
+        plt.legend(legendList, fontsize=16)
     else:
-        plt.legend([newTicker.fileName], fontsize=16)
+        plt.legend(legendList, fontsize=16)
 
     plt.show()
     return
@@ -593,18 +632,30 @@ def getPlotOptions():  # get some plotting options
     else:
         logBool=False
 
+    SMAlist=list()
+
     userResponse=input("Would you like to plot a Simple Moving Average (SMA):Y/N\n")
     if (userResponse=='Y' or userResponse=='y' or userResponse.lower()=='yes'):
         SMAbool=True
-        SMAdays = input("How many days are in the rolling SMA?:\n")
-        if (int(SMAdays)>=1):
-            return int(SMAdays),SMAbool,logBool
-        else:
-            SMAdays=7 # 7 day moving average
-            return  SMAdays,SMAbool,logBool
+
+        numSMAs = input("How many SMA's would you like to plot?:\n")
+        if (int (numSMAs)<1):
+            numSMAs = 1
+        elif (int(numSMAs)>5):
+            numSMAs = 5
+
+        for k in range(int(numSMAs)):
+            SMAdays = input("How many days are in the rolling SMA for SMA"+str(k)+"?:\n")
+            if (int(SMAdays)>=1):
+                SMAlist.append(int(SMAdays)) # smaDay moving average 
+            else:
+                SMAlist.append(7+k) # 7+k day moving average 
+
+        return  SMAlist,SMAbool,logBool
+  
     else: 
         SMAbool=False
-        return 1,SMAbool,logBool
+        return SMAlist,SMAbool,logBool
     
 def openFileFromDisk():
     ''' Prompts the User for a File Name, 
@@ -613,9 +664,16 @@ def openFileFromDisk():
     '''
 
     import pandas as pd
-    fileName=input("Enter the filename:\n")
+    import os
+
+    if (os.name == 'nt'): # for Windows NT systems
+        dataFolder="data\\"
+    else:  # for unix/linux systems
+        dataFolder="data/"
+
+    fileName=input("Enter the filename from folder:"+dataFolder+"\n")
     try:
-        fhand = open(fileName,'r') #open the file for reading
+        fhand = open(dataFolder+fileName,'r') #open the file for reading
         data = pd.read_csv(fhand) # use pandas to import the csv file from disk
         return data 
     except:

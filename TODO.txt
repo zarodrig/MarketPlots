@@ -10,18 +10,11 @@
 #############################
 ____________________________________________
 TIMELINE:
--- Develop test Procedure (Tuesday)
-    -- test symbol and index pulling
-    -- test plotting data and different ranges
 
--- Try recording video demo (Wednesday)
-    --OBS Studio.
-    --Zoom if OBS studio doesn't work out.
-
--- Presentation (Friday 3:30pm Zoom)
 ____________________________________________
 Bug:
 --------------------------------------------
 __________________________________________
 Feature Request:
 
+-- Plot multiple SMAs in a for loop

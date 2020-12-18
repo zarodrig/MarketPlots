@@ -51,3 +51,403 @@
    at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
    at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
 [Error - 11:22:28 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:28:39 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:28:39 PM] Deep learning IntelliCode recommendations service returned in 82 millis
+[Info  - 11:28:41 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:28:41 PM] Deep learning IntelliCode recommendations service returned in 111 millis
+[Info  - 11:29:13 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:29:13 PM] Deep learning IntelliCode recommendations service returned in 82 millis
+[Info  - 11:29:14 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:29:14 PM] Deep learning IntelliCode recommendations service returned in 82 millis
+[Info  - 11:29:55 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:29:55 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:29:58 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:29:58 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:29:58 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:29:58 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:29:59 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:29:59 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:30:01 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:30:01 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:30:02 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:30:02 PM] Deep learning IntelliCode recommendations service returned in 96 millis
+[Info  - 11:30:38 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:30:38 PM] Deep learning IntelliCode recommendations service returned in 84 millis
+[Info  - 11:30:39 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:30:39 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:30:42 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:30:42 PM] Deep learning IntelliCode recommendations service returned in 84 millis
+[Info  - 11:30:43 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:30:43 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:31:09 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:09 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:31:20 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:20 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:31:24 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:24 PM] Deep learning IntelliCode recommendations service returned in 84 millis
+[Info  - 11:31:25 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:25 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:31:31 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:31 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:31:37 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:37 PM] Deep learning IntelliCode recommendations service returned in 84 millis
+[Info  - 11:31:38 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:38 PM] Deep learning IntelliCode recommendations service returned in 84 millis
+[Info  - 11:31:38 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:38 PM] Deep learning IntelliCode recommendations service returned in 95 millis
+[Info  - 11:31:40 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:31:40 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:32:51 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:32:51 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:32:54 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:32:54 PM] Deep learning IntelliCode recommendations service returned in 83 millis
+[Info  - 11:32:57 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:32:57 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:32:57 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:32:57 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:32:57 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:33:01 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:33:01 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:34:21 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:21 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:34:28 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:28 PM] Deep learning IntelliCode recommendations service returned in 87 millis
+[Info  - 11:34:29 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:29 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:34:29 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:29 PM] Deep learning IntelliCode recommendations service returned in 87 millis
+[Info  - 11:34:30 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:30 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:34:30 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:30 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:34:31 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:31 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:34:46 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:46 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:34:51 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:51 PM] Deep learning IntelliCode recommendations service returned in 89 millis
+[Info  - 11:34:52 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:52 PM] Deep learning IntelliCode recommendations service returned in 87 millis
+[Info  - 11:34:53 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:34:53 PM] Deep learning IntelliCode recommendations service returned in 86 millis
+[Info  - 11:35:03 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:35:03 PM] Deep learning IntelliCode recommendations service returned in 85 millis
+[Info  - 11:36:23 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:36:23 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:36:23 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:36:26 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:36:26 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:36:26 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:36:51 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:36:51 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:36:51 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:37:11 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:37:11 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:37:11 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:37:17 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:37:17 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:37:17 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:37:17 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:37:17 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:37:17 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:37:20 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:37:20 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:37:20 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:37:22 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:37:22 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:37:22 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:06 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:06 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:06 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:11 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:11 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:11 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:12 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:12 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:12 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:12 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:12 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:12 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:41 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:41 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:41 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:43 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:43 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:43 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:44 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:44 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:44 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:38:46 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:38:46 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:38:46 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:40:09 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:40:09 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:40:09 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:40:12 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:40:12 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:40:12 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:40:12 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:40:12 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:40:12 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:40:36 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:40:36 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:40:36 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:40:39 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:40:39 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:40:39 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:41:19 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:41:19 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:41:19 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:41:20 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:41:20 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:41:20 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:41:22 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:41:22 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:41:22 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:41:25 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:41:25 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:41:25 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:41:33 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:41:33 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:41:33 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:41:38 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:41:38 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:41:38 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:42:15 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:42:15 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:42:15 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:42:17 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:42:17 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:42:17 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:42:26 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:42:26 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:42:26 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:42:51 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:42:51 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:42:51 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:37 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:37 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:37 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:38 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:38 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:38 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:41 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:41 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:41 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:41 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:41 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:41 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:42 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:42 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:42 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:57 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:57 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:57 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:58 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:58 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:58 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:44:58 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:44:58 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:44:58 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:45:17 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:45:17 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:45:17 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:45:18 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:45:18 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:45:18 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:45:21 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:45:21 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:45:21 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:45:25 PM] Predictions: append, extend, remove, sort, insert, reverse, items, pop, execute, clear, should, update, repeat, list, iterlinks, zero_grad, choices, values, text, emit
+[Info  - 11:45:25 PM] Time taken to get predictions: 25 ms, Memory increased: 2072576 bytes
+[Error - 11:45:25 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:45:25 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:45:52 PM] Predictions: append, remove, sort, extend, insert, reverse, clear, pop, write, index, tag, update, close, len, text, set, add, rename, save, delete
+[Info  - 11:45:52 PM] Time taken to get predictions: 17 ms, Memory increased: 376832 bytes
+[Error - 11:45:52 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:45:52 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:45:58 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:45:58 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:45:58 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:46:04 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:46:04 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:46:04 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:46:05 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:46:05 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:46:05 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:46:05 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:46:05 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:46:05 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:51:13 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:51:13 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:51:13 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:51:51 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:51:51 PM] Deep learning IntelliCode recommendations service returned in 130 millis
+[Info  - 11:51:52 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:51:52 PM] Deep learning IntelliCode recommendations service returned in 165 millis
+[Info  - 11:55:23 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:55:23 PM] Deep learning IntelliCode recommendations service returned in 11 millis
+[Info  - 11:55:24 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:55:24 PM] Deep learning IntelliCode recommendations service returned in 10 millis
+[Info  - 11:55:25 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:55:25 PM] Deep learning IntelliCode recommendations service returned in 11 millis
+[Info  - 11:56:45 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:56:45 PM] Deep learning IntelliCode recommendations service returned in 91 millis
+[Info  - 11:57:21 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:57:21 PM] Deep learning IntelliCode recommendations service returned in 101 millis
+[Info  - 11:57:22 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:57:22 PM] Deep learning IntelliCode recommendations service returned in 92 millis
+[Info  - 11:57:24 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:57:24 PM] Deep learning IntelliCode recommendations service returned in 92 millis
+[Info  - 11:57:25 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Info  - 11:57:25 PM] Deep learning IntelliCode recommendations service returned in 93 millis

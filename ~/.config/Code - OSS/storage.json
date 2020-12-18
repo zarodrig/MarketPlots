@@ -1,7 +1,9 @@
 {
     "telemetry.machineId": "360d67836592aac253063db597a34eafc6bd4b6988d6f55708c9efa34721489b",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/dawnfire/dev/git/MarketPlots"
+        ],
         "files2": [
             "file:///home/dawnfire/dev/git/MarketPlots/functions.py"
         ]
@@ -42,6 +44,21 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/dawnfire/dev/git/MarketPlots",
+                                        "external": "file:///home/dawnfire/dev/git/MarketPlots",
+                                        "path": "/home/dawnfire/dev/git/MarketPlots",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/git/MarketPlots"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -169,8 +186,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -370,7 +386,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -1441,7 +1458,8 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/dawnfire/dev/git/MarketPlots/~/.config/Code - OSS/Backups/1608272136295",
+            "folder": "file:///home/dawnfire/dev/git/MarketPlots",
+            "backupPath": "/home/dawnfire/dev/git/MarketPlots/~/.config/Code - OSS/Backups/bf4b8a77279479804372965cd0f958e1",
             "uiState": {
                 "mode": 0,
                 "x": 453,
@@ -1451,5 +1469,6 @@
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/dawnfire/dev/git"
 }
