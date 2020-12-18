@@ -1,0 +1,15 @@
+[2020-12-17 23:15:39.479] [sharedprocess] [info] main {"machineId":"360d67836592aac253063db597a34eafc6bd4b6988d6f55708c9efa34721489b","windowId":2}
+[2020-12-17 23:15:39.835] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-test /home/dawnfire/.vscode-oss/extensions/vscjava.vscode-java-test-0.26.0
+[2020-12-17 23:15:44.223] [sharedprocess] [info] Installing extension: ecmel.vscode-html-css
+[2020-12-17 23:15:44.223] [sharedprocess] [info] Installing extension: vscjava.vscode-java-dependency
+[2020-12-17 23:15:46.177] [sharedprocess] [info] Downloaded extension: ecmel.vscode-html-css undefined
+[2020-12-17 23:15:46.226] [sharedprocess] [info] Extracted extension to /home/dawnfire/.vscode-oss/extensions/.ecmel.vscode-html-css-1.1.6: ecmel.vscode-html-css
+[2020-12-17 23:15:46.227] [sharedprocess] [info] Renamed to /home/dawnfire/.vscode-oss/extensions/ecmel.vscode-html-css-1.1.6
+[2020-12-17 23:15:46.228] [sharedprocess] [info] Installation completed. ecmel.vscode-html-css
+[2020-12-17 23:15:46.238] [sharedprocess] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2020-12-17 23:15:46.639] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-dependency undefined
+[2020-12-17 23:15:46.741] [sharedprocess] [info] Extracted extension to /home/dawnfire/.vscode-oss/extensions/.vscjava.vscode-java-dependency-0.16.0: vscjava.vscode-java-dependency
+[2020-12-17 23:15:46.741] [sharedprocess] [info] Renamed to /home/dawnfire/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.16.0
+[2020-12-17 23:15:46.742] [sharedprocess] [info] Installation completed. vscjava.vscode-java-dependency
+[2020-12-17 23:15:46.747] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-dependency
+[2020-12-17 23:16:19.505] [sharedprocess] [info] Starting to clean up unused language packs.

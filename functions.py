@@ -86,7 +86,8 @@ def grabData( commodity: commoData, source:str):
     import urllib.request, urllib.parse, urllib.error
     import requests
     import pandas as pd
-    
+    import os
+
     # These are seconds after 1970, used to index yahoo finance historical dataset (just go from 1970-2025)
     T1=0 #  1970 
     T2=(2025-1970)*(3600*24*(365)) # approximate number of seconds to 2021 excluding leap years etc close enough to full range
@@ -108,6 +109,13 @@ def grabData( commodity: commoData, source:str):
     elif (source == 'yahoo'):
         resourceURL = "https://query1.finance.yahoo.com/v7/finance/download/"+commodity.fileName+"?period1="+str(T1)+"&period2="+str(T2)+"&interval=1d&events=history&includeAdjustedClose=true"
 
+    if (os.name == 'nt'): # for Windows NT systems
+        dataFolder="data\\"
+    else:  # for unix/linux systems
+        dataFolder="data/"
+
+
+
     if (source == 'datahub' or source =='quandl' or source == 'yahoo' ):
         #https://docs.python.org/3/howto/urllib2.html
         #https://docs.python.org/3/library/urllib.request.html
@@ -125,7 +133,7 @@ def grabData( commodity: commoData, source:str):
             local_filename, headers = urllib.request.urlretrieve(resourceURL)
             html = open(local_filename)
             data = pd.read_csv(html)
-            data.to_csv(commodity.folderName+"_"+commodity.fileName +".csv")  # This also writes the header to line 0
+            data.to_csv(dataFolder+commodity.folderName+"_"+commodity.fileName +".csv")  # This also writes the header to line 0
             html.close()
 
             return data  # return the pandas dataset data

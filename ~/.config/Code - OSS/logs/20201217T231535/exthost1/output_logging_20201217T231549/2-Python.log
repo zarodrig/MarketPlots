@@ -1,0 +1,74 @@
+User belongs to experiment group 'ShowPlayIcon - start'
+User belongs to experiment group 'ShowExtensionSurveyPrompt - control'
+User belongs to experiment group 'DebugAdapterFactory - experiment'
+User belongs to experiment group 'PtvsdWheels37 - experiment'
+User belongs to experiment group 'UseTerminalToGetActivatedEnvVars - control'
+User belongs to experiment group 'LocalZMQKernel - experiment'
+User belongs to experiment group 'CollectLSRequestTiming - control'
+User belongs to experiment group 'CollectNodeLSRequestTiming - experiment'
+User belongs to experiment group 'EnableIPyWidgets - experiment'
+User belongs to experiment group 'RunByLine - experiment'
+User belongs to experiment group 'CustomEditorSupport - control'
+User belongs to experiment group 'pythonaacf'
+User belongs to experiment group 'pythonSendEntireLineToREPL'
+> conda --version
+> pyenv root
+> python3.7 ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3.6 ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3 ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python2 ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> conda info --json
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+Error 2020-12-17 23:15:53: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/home/dawnfire/.config/Code/User/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/dawnfire/.config/Code/User/settings.json')
+	at _handleError (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:730:838)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async y.readText (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:9:168994)
+	at async p.doesFileNeedToBeFixed (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:963651)
+	at async /home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:962778
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:962724)
+	at async p.updateTestSettings (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:962351)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> pyenv root
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+Python interpreter path: /usr/bin/python
+Starting Microsoft Python language server.
+Error 2020-12-17 23:15:53: Python Extension: interpreterManager.refresh [Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at a (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:659:99)
+	at Object.t.checkProposedApiEnabled (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:659:567)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1010:158)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:1203223)
+	at u.get hidden [as hidden] (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:647038)
+	at /home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:846357
+	at Array.every (<anonymous>)
+	at g.updateVisibility (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:846345)
+	at g.updateDisplay (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:846218)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async g.refresh (/home/dawnfire/.vscode-oss/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:845171)]
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> pyenv root
+> pyenv root
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py jupyter kernelspec --version
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py jupyter kernelspec --version
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> conda --version
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"

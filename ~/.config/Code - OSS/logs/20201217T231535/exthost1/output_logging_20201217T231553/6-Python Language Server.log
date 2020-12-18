@@ -1,0 +1,53 @@
+[Info  - 11:15:56 PM] Analysis cache path: /home/dawnfire/.cache/Microsoft/Python Language Server
+[Info  - 11:15:56 PM] Microsoft Python Language Server version 0.5.59.0
+[Info  - 11:15:56 PM] Workspace root: 
+[Info  - 11:15:56 PM] GetCurrentSearchPaths /usr/bin/python 
+2020-12-17 23:15:57.001962264 [W:onnxruntime:, graph.cc:814 Graph] Initializer embeddings_matrix:0_quantized appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-12-17 23:15:57.001992394 [W:onnxruntime:, graph.cc:814 Graph] Initializer embeddings_matrix:0_scale appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-12-17 23:15:57.002000131 [W:onnxruntime:, graph.cc:814 Graph] Initializer embeddings_matrix:0_zero_point appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-12-17 23:15:57.002006683 [W:onnxruntime:, graph.cc:814 Graph] Initializer fixed_quantization_range_uint8 appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-12-17 23:15:57.002013553 [W:onnxruntime:, graph.cc:814 Graph] Initializer fixed_zero appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+[Info  - 11:15:57 PM] Interpreter search paths:
+[Info  - 11:15:57 PM]     /usr/lib/python3.9
+[Info  - 11:15:57 PM]     /usr/lib/python3.9/lib-dynload
+[Info  - 11:15:57 PM]     /home/dawnfire/.local/lib/python3.9/site-packages
+[Info  - 11:15:57 PM]     /usr/lib/python3.9/site-packages
+[Info  - 11:15:57 PM] User search paths:
+[Info  - 11:16:00 PM] Initializing for /usr/bin/python
+[Info  - 11:16:00 PM] Analysis caching mode: None.
+[Info  - 11:20:08 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:20:08 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:20:08 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:20:10 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:20:10 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:20:10 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:21:08 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:21:08 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:21:08 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:21:09 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:21:09 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:21:09 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:21:09 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:21:09 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:21:09 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
+[Info  - 11:22:28 PM] Current invocation parsing returned null, aborting IntelliCode recommendation!
+[Error - 11:22:28 PM] Exception in IntelliCode extension for Microsoft Python Language Server: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.PythonTools.Analysis.Pythia.PythiaService.GetRecommendationsAsync(IDocumentAnalysis analysis, CompletionList completionList, SourceLocation location, Int32 recommendataionLimit, CancellationToken cancellationToken)
+   at Microsoft.PythonTools.Analysis.Pythia.LanguageServerExtension.HandleCompletionAsync(IDocumentAnalysis analysis, SourceLocation location, CompletionList completionList, CancellationToken token)
+[Error - 11:22:28 PM] For more information about IntelliCode deep learning model, see https://aka.ms/intellicode/vscode-experiments
