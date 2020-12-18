@@ -1,0 +1,27 @@
+############################
+# Title: Todo.txt
+# Author: Zorondras Rodriguez
+# Creation Date: December 07,2020
+# Version: 0.03
+# Revision Date: December 08,2020
+# 
+# Description: Current List of outstanding features and bugs fixes to implement
+#
+#############################
+____________________________________________
+TIMELINE:
+-- Develop test Procedure (Tuesday)
+    -- test symbol and index pulling
+    -- test plotting data and different ranges
+
+-- Try recording video demo (Wednesday)
+    --OBS Studio.
+    --Zoom if OBS studio doesn't work out.
+
+-- Presentation (Friday 3:30pm Zoom)
+____________________________________________
+Bug:
+--------------------------------------------
+__________________________________________
+Feature Request:
+
