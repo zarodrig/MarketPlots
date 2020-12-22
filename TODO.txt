@@ -17,4 +17,4 @@ Bug:
 __________________________________________
 Feature Request:
 
--- Plot multiple SMAs in a for loop
+-- MACD and Slow/Fast Stochastics. 

@@ -2,7 +2,7 @@
 #  FileName:functions.py
 #  Author: Zorondras Rodriguez
 #  Creation Date: December 5, 2020
-#  Version:  0.12
+#  Version:  0.13
 #  Revision Date: December 9, 2020
 #  Course: ENSF 310
 #  Assignment: Final Project
@@ -455,7 +455,7 @@ def dataPlotterDouble(data, xCol: str, yCol1: str,yCol2:str, xLab: str, yLab1: s
         ax2.set_xticklabels(labelList, rotation=40)
 
         ax1.plot(data[xCol], data[yCol1], '-k')  # plot the price data
-        ax1.plot(data[xCol], data[yCol2], '-k')  # plot the volume data
+        ax2.plot(data[xCol], data[yCol2], '-k')  # plot the volume data
 
         if (smaBool):
             for k in range(len(smaList)):

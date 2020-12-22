@@ -1,6 +1,10 @@
 # MarketPlots
 Plot Stock Market, Commodity, and Economic Data . <p>
 
+Requirements: Python 3, Numpy, Pandas, Matplotlib.  
+
+$ pip install numpy pandas matplotlib
+
 <h1> WINDOWS <\h1>
 
 Open a command window CMD or run in VS Code 
