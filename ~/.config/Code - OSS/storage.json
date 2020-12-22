@@ -5,6 +5,10 @@
             "file:///home/dawnfire/dev/git/MarketPlots"
         ],
         "files2": [
+            "file:///home/dawnfire/dev/git/ssh/MarketPlots/marketPlots.py",
+            "file:///home/dawnfire/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plot_test.py",
+            "file:///home/dawnfire/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plotTest.py",
+            "file:///home/dawnfire/dev/git/ssh/MarketPlots/functions.py",
             "file:///home/dawnfire/dev/git/MarketPlots/functions.py"
         ]
     },
@@ -42,8 +46,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -52,8 +55,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dawnfire/dev/git/MarketPlots",
-                                        "external": "file:///home/dawnfire/dev/git/MarketPlots",
                                         "path": "/home/dawnfire/dev/git/MarketPlots",
                                         "scheme": "file"
                                     },
@@ -67,6 +68,51 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/dawnfire/dev/git/ssh/MarketPlots/functions.py",
+                                        "path": "/home/dawnfire/dev/git/ssh/MarketPlots/functions.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/git/ssh/MarketPlots/functions.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dawnfire/dev/git/ssh/MarketPlots/marketPlots.py",
+                                        "path": "/home/dawnfire/dev/git/ssh/MarketPlots/marketPlots.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/git/ssh/MarketPlots/marketPlots.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dawnfire/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plot_test.py",
+                                        "path": "/home/dawnfire/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plot_test.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plot_test.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dawnfire/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plotTest.py",
+                                        "path": "/home/dawnfire/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plotTest.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/python/ensf_310/labs/project/cwd/final-project-ron-rodriguez/legacy/testing/plotTest.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dawnfire/dev/git/MarketPlots/functions.py",
                                         "path": "/home/dawnfire/dev/git/MarketPlots/functions.py",
                                         "scheme": "file"
                                     },
@@ -186,7 +232,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -386,8 +433,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -1458,8 +1504,7 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dawnfire/dev/git/MarketPlots",
-            "backupPath": "/home/dawnfire/dev/git/MarketPlots/~/.config/Code - OSS/Backups/bf4b8a77279479804372965cd0f958e1",
+            "backupPath": "/home/dawnfire/dev/git/ssh/MarketPlots/~/.config/Code - OSS/Backups/1608590869987",
             "uiState": {
                 "mode": 0,
                 "x": 453,
@@ -1470,5 +1515,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/dawnfire/dev/git"
+    "pickerWorkingDir": "/home/dawnfire/dev/git/ssh/MarketPlots"
 }
